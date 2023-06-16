@@ -3,7 +3,7 @@ The purpose of this repository is to have the completed input scripts for https:
 
 In the event you don't have LAMMPS built and compiled, follow the instructions below.
 
-For Windows users, I recommend getting WSL (Windows Subsystem for Linux) from the Microsoft Store, particularly obtaining Ubuntu 22.04 LTS. If you have a Unix system like MacOS you should be fine. In the event you run Linux natively, the following scripts have only been tested for Ubuntu since that is the syntax I know best.
+For Windows users, I recommend getting WSL (Windows Subsystem for Linux) from the Microsoft Store, particularly obtaining Ubuntu 22.04 LTS as the commands in will be specific for Ubuntu. Alternatively, MacOS works just fine as long as you follow the directions specfic to it. In the event you run Linux natively, the following scripts have only been tested for Ubuntu since that is the syntax I know best.
 
 ## LAMMPS Installation for Ubuntu
 
@@ -24,7 +24,7 @@ Install git if you don't have it by typing in your terminal
 
 `sudo apt update; sudo apt upgrade; sudo apt-get update; sudo apt-get upgrade; sudo apt-get install git `
 
-type in your password if requested, type Y if prompted Y/n, and hit enter
+type in your the password to your computer if requested, type Y if prompted Y/n, and hit enter
 
 Check git was installed by running 
 
@@ -45,7 +45,7 @@ Once in lammps_tutorials, enter
 
 `sudo chmod +x lammps_ubuntu_install.sh`
 
-type in your password if prompted, then hit enter/return to make the file executable
+type in your computer's password if prompted, then hit enter/return to make the file executable
 
 Following this command, enter
 
@@ -55,7 +55,7 @@ to run the actual installation. Once it is done, you should see a folder called 
 
 For me, this looks like:
 
-`/home/dell/lammps/build/lmp -in filename.lammps`
+`/home/dell/lammps_install/mylammps/build/lmp -in filename.lammps`
 
 Alternatively, you can add the build folder to the PATH of your shell by following the syntax I have at the end of my zsh config file.
 
@@ -71,23 +71,13 @@ Navigate back to the lammps_install folder by typing
 
 ## LAMMPS Installation for MacOS
 
-The easiest way to download the entirety of this repository and compile LAMMPS would be to follow the steps starting at **Cloning the Repository** which is dependent on you having git installed. You can check if you have git by typing:
-
-`git --version`
-
-in your terminal. If you have it, some output 
-
-`git version x.xx.x`
-
-should appear. If not, follow the procedure listed in **Homebrew and Git Installation** below
-
-### Homebrew and Git Installation
-
 The following set of instructions is contingent on you having the MacOS pacakge manager, Homebrew. You can check if you have it by typing 
 
 `brew --version`
 
-in the terminal. If nothing comes up, follow the subsequent instructions.
+in the terminal. If nothing comes up, follow the procedure listed in **Homebrew and Git Installation** below.
+
+### Homebrew and Git Installation
 
 Install Command Line Tools as a necessary precursor to obtaining Homebrew. This can be done by entering
 
@@ -97,9 +87,17 @@ in your terminal, running it, and accepting whatever changes it asks to make. Fr
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-Press return/enter to proceed with the installation; press any other key to opt out. Be sure to add Homebrew to *PATH* by running the commands it tells you under the bolded text saying "**Next Steps:**" once Homebrew is done installing.
+Press return/enter to proceed with the installation; press any other key to opt out. Be sure to add Homebrew to *PATH* by running the two commands it tells you under the bolded text saying "**Next Steps:**" once Homebrew is done installing.
 
-Once you have Homebrew, install Git using the following command:
+The easiest way to download the entirety of this repository and compile LAMMPS would be to follow the steps starting at **Cloning the Repository** which is dependent on you having git installed. You can check if you have git by typing:
+
+`git --version`
+
+in your terminal. If you have it, some output 
+
+`git version x.xx.x`
+
+If nothing appears, type the following command:
 
 `brew install git`
 
@@ -112,7 +110,7 @@ If it shows Git is installed, follow the subsequent steps
 ### Cloning the Repository
 Once you have git, run
 
-`git clone https://github.com/mohan-s1/lammps_install.git`
+`git clone https://github.com/EgorovGroup-UVA/lammps_install.git`
 
 Following this, enter 
 ### Installation of LAMMPS
@@ -134,7 +132,7 @@ to run the actual installation. Once it is done, you should see a folder called 
 
 For me, this looks like:
 
-`/home/dell/lammps/build/lmp -in filename.lammps`
+`/Users/mohan/lammps_install/mylammps/build/lmp -in filename.lammps`
 
 Alternatively, you can add the build folder to the PATH of your shell by following the syntax I have at the end of my zsh config file.
 
