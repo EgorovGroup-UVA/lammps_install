@@ -5,9 +5,7 @@ In the event you don't have LAMMPS built and compiled, follow the instructions b
 
 For Windows users, I recommend getting WSL (Windows Subsystem for Linux) from the Microsoft Store, particularly obtaining Ubuntu 22.04 LTS as the commands in will be specific for Ubuntu. Alternatively, MacOS works just fine as long as you follow the directions specfic to it. In the event you run Linux natively, the following scripts have only been tested for Ubuntu since that is the syntax I know best.
 
-If desired, you can download a video of someone walking through the installation process for MacOS. The procedure should be fairly similar to the Ubuntu version as well.
-
-https://drive.google.com/drive/folders/1Yv2uyFjuRq9r5eyd1MHRHMy3_Eb7a2BP?usp=drive_link
+If desired, you can download a [video](https://drive.google.com/drive/folders/1Yv2uyFjuRq9r5eyd1MHRHMy3_Eb7a2BP?usp=drive_link) of someone walking through the installation process for MacOS. The procedure should be fairly similar to the Ubuntu version as well.
 
 ## LAMMPS Installation for Ubuntu
 
