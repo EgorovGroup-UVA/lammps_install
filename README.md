@@ -144,7 +144,7 @@ You can follow the same process for the python_mac_install.sh script to load pyt
 
  
 # Tutorial Completion 
-In terms of completing the LAMMPS tutorials, make sure you follow the instructions of the [site](https://lammpstutorials.github.io/) and make sure the file structure mathces what's listed on the site; that and making sure the names of the files you read in match within the LAMMPS scripts themselves. Ex. being the Level 1 Graphene under Deformation instructions. Alternatively, you should be able to run everything I have "out of the box" where all input scripts are named 
+In terms of completing the tutorials, the scripts present in the lammps_install named "Tutorials" should have all requisite input scripts and file structure mentioned on the GitHub site for the [LAMMPS tutorials](https://lammpstutorials.github.io/). The input file for each directory is 
 
 `input.lammps` 
 
@@ -168,7 +168,7 @@ For me, a sample run of one of these scripts looks like this:
 
 `cd lammps_install/Tutorials/lev_0/`
 
-`~/lammps_installs/mylammps/build/lmp -in input1.lammps`
+`~/lammps_install/mylammps/build/lmp -in input1.lammps`
 
 ## Text Editor Recommendation
 
@@ -182,7 +182,7 @@ for MacOS and
 
 for Ubuntu if you need to re-install them for whatever reason.
 
-You will follow the same procedure of navigating to the lammps_tutorials folder then run
+You will follow the same procedure of navigating to the lammps_install folder within your terminal then run
 
 `sudo chmod -x py_mac_packages.sh`
 
