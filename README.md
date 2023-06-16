@@ -33,7 +33,7 @@ Check git was installed by running
 ### Cloning the Repository
 Once you have git, run
 
-`git clone https://github.com/mohan-s1/lammps_install.git`
+`git clone https://github.com/EgorovGroup-UVA/lammps_install.git`
 
 Following this, enter 
 ### Installation of LAMMPS
