@@ -73,7 +73,7 @@ Navigate back to the lammps_install folder by typing
 
 ## LAMMPS Installation for MacOS
 
-The following set of instructions is contingent on you having the MacOS pacakge manager, Homebrew. You can check if you have it by typing 
+The following set of instructions is contingent on you having the MacOS pacakge manager, Homebrew. You can check if you have it by copying and running 
 
 `brew --version`
 
