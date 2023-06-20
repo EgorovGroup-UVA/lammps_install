@@ -134,7 +134,7 @@ to run the actual installation. Once it is done, you should see a folder called 
 
 For me, this looks like:
 
-`/Users/mohan/lammps_install/mylammps/build/lmp -in filename.lammps`
+`/Users/EgorovGroup/lammps_install/mylammps/build/lmp -in filename.lammps`
 
 Alternatively, you can add the build folder to the PATH of your shell by following the syntax I have at the end of my zsh config file.
 
