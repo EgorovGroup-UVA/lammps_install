@@ -11,7 +11,7 @@ If desired, you can download a [video](https://drive.google.com/drive/folders/1Y
 
 ***Run the following commands in WSL if you use Windows***
 
-The easiest way to download the entirety of this repository and compile LAMMPS would be to follow the steps starting at **Cloning the Repository** which is dependent on you having git installed. You can check if you have git by typing:
+The easiest way to download the entirety of this repository and compile LAMMPS would be to follow the steps starting at **Cloning the Repository** which is dependent on you having git installed. You can check if you have git by copying and running:
 
 `git --version`
 
@@ -22,7 +22,7 @@ in your terminal. If you have it, some output
 should appear. If not, follow the procedure listed in ***Git Installation*** below
 
 ### Git Installation
-Install git if you don't have it by typing in your terminal
+Install git if you don't have it by copying the following code block in your terminal:
 
 `sudo apt update; sudo apt upgrade; sudo apt-get update; sudo apt-get upgrade; sudo apt-get install git `
 
