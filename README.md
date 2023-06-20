@@ -140,9 +140,9 @@ Alternatively, you can add the build folder to the PATH of your shell by followi
 
 You can follow the same process for the python_mac_install.sh script to load python3, the package manager, pip, and some packages that might be useful.
 ### Installation of Python & Some Packages
-`sudo chmod +x python_install.sh`
+`sudo chmod +x python_mac_install.sh`
 
-`./python_install.sh`
+`./python_mac_install.sh`
 
  
 # Tutorial Completion 
