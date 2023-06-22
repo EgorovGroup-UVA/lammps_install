@@ -77,9 +77,9 @@ The following set of instructions is contingent on you having the MacOS pacakge 
 
 `brew --version`
 
-in the terminal. If nothing comes up, follow the procedure listed in **Homebrew and Git Installation** below.
+in the terminal. If nothing comes up, follow the procedure listed in **Homebrew Installation** below. If you do have the package manager, proceed to the section titled **Git Installation**.
 
-### Homebrew and Git Installation
+### Homebrew Installation
 
 Install Command Line Tools as a necessary precursor to obtaining Homebrew. This can be done by entering
 
@@ -90,6 +90,8 @@ in your terminal, running it, and accepting whatever changes it asks to make. Fr
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 Press return/enter to proceed with the installation; press any other key to opt out. Be sure to add Homebrew to *PATH* by running the two commands it tells you under the bolded text saying "**Next Steps:**" once Homebrew is done installing.
+
+### Git Installation
 
 The easiest way to download the entirety of this repository and compile LAMMPS would be to follow the steps starting at **Cloning the Repository** which is dependent on you having git installed. You can check if you have git by typing:
 
